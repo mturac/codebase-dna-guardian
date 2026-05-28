@@ -6,6 +6,22 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-8b5cf6)](https://claude.ai/claude-code)
 
+![DNA Guardian Overview](docs/screenshots/overview.png)
+
+<div align="center">
+
+| ![Rules](docs/screenshots/rules.png) | ![Services](docs/screenshots/services.png) |
+|:---:|:---:|
+| **Rules Browser** — HARD/SOFT/PREF with violation locations | **Service Scores** — per-service consistency bars + cross-service drift |
+
+| ![Health](docs/screenshots/health.png) | |
+|:---:|:---:|
+| **Health Tab** — zombie dependencies + architectural drift zones | |
+
+</div>
+
+---
+
 Every mature codebase has unwritten rules — naming conventions, error handling patterns, import styles, architectural decisions — that only experienced team members know. New developers (and AI assistants) violate these rules not out of incompetence, but because **nobody wrote them down**.
 
 DNA Guardian captures those rules as a machine-readable profile and enforces them continuously.
@@ -168,6 +184,12 @@ Note: Named as `payment-service.ts` following DNA-N1 (kebab-case file naming).
 
 ### PREF — silent
 Uses `dayjs` instead of `moment` because DNA-D2 says so. No mention.
+
+---
+
+## 🌍 Other Languages
+
+[🇹🇷 Türkçe](README.tr.md) · [🇫🇷 Français](README.fr.md) · [🇩🇪 Deutsch](README.de.md) · [🇨🇳 中文](README.zh.md) · [🇰🇷 한국어](README.ko.md)
 
 ---
 

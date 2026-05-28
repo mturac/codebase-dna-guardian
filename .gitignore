@@ -19,9 +19,11 @@ Thumbs.db
 .idea/
 *.swp
 
-# Screenshots (generated at runtime)
-*.png
-*.jpg
+# Screenshots (generated at runtime — root level only)
+/*.png
+/*.jpg
+# Keep docs/screenshots
+!docs/screenshots/
 
 # Local MCP / playwright state
 .playwright-mcp/
