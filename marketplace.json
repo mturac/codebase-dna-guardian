@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "name": "codebase-dna-guardian",
+  "display_name": "Codebase DNA Guardian",
+  "version": "1.0.0",
+  "description": "Extracts and enforces a codebase's tribal knowledge — naming conventions, architectural patterns, error handling strategies, import styles, and dependency choices. Generates a DNA profile and acts as a passive guardian when writing new code.",
+  "author": {
+    "name": "Mehmet Turac",
+    "email": "mehmet.turac@havas.com",
+    "url": "https://github.com/mturac"
+  },
+  "repository": "https://github.com/mturac/codebase-dna-guardian",
+  "license": "MIT",
+  "category": "code-quality",
+  "tags": [
+    "architecture",
+    "conventions",
+    "code-review",
+    "tribal-knowledge",
+    "monorepo",
+    "onboarding",
+    "consistency"
+  ],
+  "skill": {
+    "entry": "SKILL.md",
+    "commands": [
+      {
+        "name": "dna-scan",
+        "description": "Scan the codebase and extract conventions as a DNA profile. Samples ~15-20 representative files and writes .claude/dna.md (or .claude/dna/ for monorepos).",
+        "usage": "/dna-scan"
+      },
+      {
+        "name": "dna-check",
+        "description": "Audit a file or directory against the DNA profile. Reports HARD/SOFT violations with line-level locations.",
+        "usage": "/dna-check [path]"
+      },
+      {
+        "name": "dna-refactor",
+        "description": "Auto-fix convention violations in a file or directory. Always shows a plan before applying changes.",
+        "usage": "/dna-refactor [path]"
+      },
+      {
+        "name": "dna-report",
+        "description": "Generate a project-wide health dashboard with consistency score, violations, zombie dependencies, and architectural drift zones.",
+        "usage": "/dna-report"
+      },
+      {
+        "name": "dna-preview",
+        "description": "Render an interactive HTML visual report. Serves locally and opens in browser (or takes a screenshot in headless mode).",
+        "usage": "/dna-preview"
+      },
+      {
+        "name": "dna-onboard",
+        "description": "Generate a concise new-developer briefing from the DNA profile.",
+        "usage": "/dna-onboard"
+      },
+      {
+        "name": "dna-diff",
+        "description": "Compare current codebase against the existing DNA profile to detect convention evolution.",
+        "usage": "/dna-diff"
+      },
+      {
+        "name": "dna-guard",
+        "description": "Pre-merge gate — checks a branch's changes against DNA and blocks merges with HARD violations.",
+        "usage": "/dna-guard [branch]"
+      }
+    ],
+    "passive_triggers": [
+      {
+        "condition": "File .claude/dna.md or .claude/dna/ directory exists in the project",
+        "behavior": "Silently read DNA before generating any new code. Apply PREF rules silently, SOFT rules with footnote, HARD violations stop generation."
+      }
+    ]
+  },
+  "dashboard": {
+    "component": "scripts/dna-guardian-dashboard.jsx",
+    "framework": "React 18",
+    "description": "Interactive visual report with score ring, per-service bars, rules browser, zombie tracker, and evolution sparkline."
+  },
+  "compatibility": {
+    "claude_code": ">=1.0.0",
+    "platforms": ["macos", "linux", "windows"]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "codebase-dna-guardian",
+  "version": "1.0.0",
+  "description": "A Claude Code skill that extracts and enforces a codebase's tribal knowledge — naming conventions, architectural patterns, error handling strategies, and dependency choices.",
+  "keywords": [
+    "claude-code",
+    "claude-code-skill",
+    "codebase",
+    "architecture",
+    "conventions",
+    "tribal-knowledge",
+    "code-review",
+    "ai-assistant"
+  ],
+  "homepage": "https://github.com/mturac/codebase-dna-guardian",
+  "bugs": {
+    "url": "https://github.com/mturac/codebase-dna-guardian/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mturac/codebase-dna-guardian.git"
+  },
+  "license": "MIT",
+  "author": "Mehmet Turac <mehmet.turac@havas.com>",
+  "files": [
+    "SKILL.md",
+    "references/",
+    "templates/",
+    "scripts/"
+  ],
+  "scripts": {
+    "dashboard": "cd scripts && npm install && npm run dev",
+    "dashboard:build": "cd scripts && npm install && npm run build"
+  },
+  "claude-code": {
+    "skill": "SKILL.md",
+    "type": "skill",
+    "commands": [
+      "/dna-scan",
+      "/dna-check",
+      "/dna-refactor",
+      "/dna-report",
+      "/dna-preview",
+      "/dna-onboard",
+      "/dna-diff",
+      "/dna-guard"
+    ]
+  }
+}
