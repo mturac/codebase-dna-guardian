@@ -1,6 +1,10 @@
 ---
 name: codebase-dna-guardian
-description: "Senior Architect Guardian that extracts and enforces a codebase's tribal knowledge — unwritten naming conventions, architectural patterns, error handling strategies, import styles, and dependency choices. Use this skill whenever working in an existing codebase and the user asks to scan project conventions, check code against project standards, refactor for consistency, generate a DNA health report, onboard a new developer, or when Claude Code is about to write new code in a project with an existing .claude/dna.md file. Also trigger when the user says 'dna scan', 'check my code style', 'project conventions', 'architectural consistency', 'tribal knowledge', 'what patterns does this project use', 'why is this codebase inconsistent', 'onboard me to this project', 'codebase health check', or references code review against unwritten team rules. Even if the user does not name this skill explicitly, trigger it whenever Claude Code is generating new code in a project that has a .claude/dna.md or .claude/dna/ directory — the DNA must be consulted before writing."
+description: "Extracts and enforces a codebase's tribal knowledge — unwritten naming conventions, architectural patterns, error handling strategies, import styles, and dependency choices. Use this skill when: writing new code in any existing project (check DNA before generating), running /dna-scan to profile a codebase, running /dna-check to audit files, running /dna-report for a health dashboard, running /dna-guard before merging a PR, onboarding a new developer with /dna-onboard, or detecting convention drift with /dna-diff. Also trigger on phrases like 'scan my codebase conventions', 'what patterns does this project use', 'check my code style', 'architectural consistency', 'tribal knowledge', 'why is this codebase inconsistent', 'onboard me to this project', 'codebase health check', 'project standards'. Automatically activates whenever generating code in a project that has .claude/dna.md or .claude/dna/ — the DNA is consulted silently before every write."
+license: MIT
+metadata:
+  author: mturac
+  version: "1.0.0"
 ---
 
 # Codebase DNA Guardian
