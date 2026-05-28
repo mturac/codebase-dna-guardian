@@ -1,0 +1,14 @@
+{
+  "name": "codebase-dna-guardian",
+  "description": "Extracts and enforces a codebase's tribal knowledge — unwritten naming conventions, architectural patterns, error handling strategies, import styles, and dependency choices. Generates a .claude/dna.md profile and silently enforces it whenever Claude writes new code.",
+  "author": {
+    "name": "Mehmet Turac",
+    "email": "mehmet.turac@havas.com",
+    "url": "https://github.com/mturac"
+  },
+  "homepage": "https://github.com/mturac/codebase-dna-guardian",
+  "license": "MIT",
+  "version": "1.0.0",
+  "category": "code-quality",
+  "tags": ["architecture", "conventions", "tribal-knowledge", "monorepo", "code-review", "onboarding"]
+}
