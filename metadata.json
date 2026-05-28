@@ -3,6 +3,7 @@
   "organization": "Mehmet Turac",
   "date": "May 2026",
   "abstract": "Codebase DNA Guardian extracts a project's unwritten conventions — naming patterns, architectural rules, error handling strategies, import styles, dependency choices — and enforces them whenever an AI agent writes new code. It produces a machine-readable DNA profile (.claude/dna.md) from a surgical 15–20 file sample and acts as a passive guardian: HARD rules stop generation, SOFT rules add a footnote, PREF rules apply silently. Supports monorepos with per-service DNA overrides, pre-merge gates, onboarding briefs, convention drift detection, and an interactive React health dashboard.",
+  "install": "npx skills add mturac/codebase-dna-guardian",
   "references": [
     "https://github.com/mturac/codebase-dna-guardian",
     "https://www.npmjs.com/package/codebase-dna-guardian",

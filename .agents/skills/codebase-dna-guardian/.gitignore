@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+scripts/node_modules/
+
+# Build output
+dist/
+scripts/dist/
+
+# Cache
+.cache/
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Screenshots (generated at runtime — root level only)
+/*.png
+/*.jpg
+# Keep docs/screenshots
+!docs/screenshots/
+
+# Local MCP / playwright state
+.playwright-mcp/

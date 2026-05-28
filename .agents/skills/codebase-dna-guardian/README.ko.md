@@ -5,8 +5,6 @@
 [![npm version](https://img.shields.io/npm/v/codebase-dna-guardian)](https://www.npmjs.com/package/codebase-dna-guardian)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-8b5cf6)](https://claude.ai/claude-code)
-[![skills.sh](https://img.shields.io/badge/skills.sh-install-10b981)](https://skills.sh/mturac/codebase-dna-guardian)
-[![Install with npx](https://img.shields.io/badge/npx%20skills%20add-mturac%2Fcodebase--dna--guardian-8b5cf6?logo=npm)](https://skills.sh/mturac/codebase-dna-guardian)
 
 ![DNA Guardian 개요](docs/screenshots/overview.png)
 
@@ -33,12 +31,6 @@ DNA Guardian은 이러한 규칙을 머신 리더블한 프로필로 캡처하�
 
 ## 🚀 설치
 
-### 권장 — skills.sh (명령어 하나, 자동 업데이트)
-
-```bash
-npx skills add mturac/codebase-dna-guardian
-```
-
 ### npm을 통한 설치
 
 ```bash
@@ -49,6 +41,7 @@ npm install -g codebase-dna-guardian
 
 ```bash
 git clone https://github.com/mturac/codebase-dna-guardian
+# 그 다음 Claude Code 스킬 디렉토리에 추가
 ```
 
 ---

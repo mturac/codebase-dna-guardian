@@ -1,7 +1,5 @@
 # Contributing to Codebase DNA Guardian
 
-**Install the skill:** `npx skills add mturac/codebase-dna-guardian`
-
 Thanks for your interest in contributing! This project is a Claude Code skill — contributions to the skill instructions, templates, reference docs, and the visual dashboard are all welcome.
 
 ## What you can contribute

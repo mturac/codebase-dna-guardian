@@ -1,7 +1,5 @@
 # Codebase DNA Guardian — Agent Instructions
 
-**Install:** `npx skills add mturac/codebase-dna-guardian` · [npm](https://www.npmjs.com/package/codebase-dna-guardian) · [GitHub](https://github.com/mturac/codebase-dna-guardian)
-
 This file provides instructions for AI agents other than Claude Code (Cursor, GitHub Copilot, Windsurf, etc.).
 
 ## What this skill does

@@ -32,7 +32,6 @@
     "dashboard": "cd scripts && npm install && npm run dev",
     "dashboard:build": "cd scripts && npm install && npm run build"
   },
-  "skillssh": "npx skills add mturac/codebase-dna-guardian",
   "claude-code": {
     "skill": "SKILL.md",
     "type": "skill",
@@ -46,8 +45,5 @@
       "/dna-diff",
       "/dna-guard"
     ]
-  },
-  "dependencies": {
-    "codebase-dna-guardian": "^1.0.0"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "codebase-dna-guardian": {
+      "source": "mturac/codebase-dna-guardian",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "2ffb3c95a859ccf540061899c722966af648c592516a201db1ab619b79eaf104"
+    }
+  }
+}
